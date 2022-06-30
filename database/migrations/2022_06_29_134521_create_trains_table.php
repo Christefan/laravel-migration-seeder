@@ -22,8 +22,8 @@ class CreateTrainsTable extends Migration
             $table->time('time_arrival', 6);
             $table->string('train_code', 20);
             $table->unsignedTinyInteger('wagons_number');
-            $table->boolean('on_time')->default(1);
-            $table->boolean('cancelled')->default(0);
+            $table->boolean('on_time')->default(true);
+            $table->boolean('cancelled')->default(false);
             $table->timestamps();
         });
     }

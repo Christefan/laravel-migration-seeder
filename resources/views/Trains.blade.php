@@ -16,6 +16,8 @@
     <li>orario di arrivo: {{ $train->time_arrival }}</li>
     <li>codice treno: {{ $train->train_code }} </li>
     <li>numero carrozze: {{ $train->wagons_number}} </li>
+    <li>numero carrozze: {{ $train->on_time}} </li>
+    <li>numero carrozze: {{ $train->cancelled}} </li>
 </ul>
     @endforeach
 </body>
