@@ -12,7 +12,6 @@
     <li>azienda: {{ $train->company }}</li>
     <li>stazione di partenza: {{ $train->departure_station }}</li>
     <li>stazione di arrivo: {{ $train->arrival_station }}</li>
-    <li>stazione di arrivo: {{ $train->stazione_di_arrivo }}</li>
     <li>orario di partenza: {{ $train->time_departure }}</li>
     <li>orario di arrivo: {{ $train->time_arrival }}</li>
     <li>codice treno: {{ $train->train_code }} </li>
